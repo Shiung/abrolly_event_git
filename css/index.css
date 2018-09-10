@@ -176,6 +176,14 @@ header{
 	margin-top:5px;
 	color:rgba(255,255,255,.5);
 }
+.s11Box .ahref-img{
+	margin-bottom: 0px;
+}
+.ahref-img{
+	width: 200px;
+	margin-right: auto;
+	margin-left: auto;
+}
 .btn-customer-en{
 	background: linear-gradient(180deg,#009245 0% ,#39b54a 18%, #8cc63f 50%, #39b54a 82%,#009245 100%);
 }
@@ -463,6 +471,10 @@ footer a:hover{
 	.s1Box{
 		background-position: 70% center;	
 	}
+	.s1title-a{
+		line-height:35px;
+		letter-spacing: 1px;
+	}
 }
 @media (min-width: 768px){
 	.md-right{
@@ -562,7 +574,7 @@ footer a:hover{
 		height: auto;
 	}
 	.s1title-a{
-		line-height:30px;
+		line-height:25px;
 	}
 	.btn-customer{
 		font-size: 20px;
@@ -581,14 +593,9 @@ footer a:hover{
 		left: 15px;
 		top: 15px;
 	}
-	/* .sale-en{
-		left: 15px;
-		top: 15px;
+	.ahref-img{
+		width: 150px;
 	}
-	.sale-ch{
-		left: 15px;
-		bottom: 15px;
-	} */
 }
 @media screen and ( max-width: 991px ){
 	footer{

@@ -66,8 +66,8 @@ switch ($language){
 	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 	<!-- user -->
-	<link rel="stylesheet" type="text/css" href="css/index.css?v1.1">
-	<script src="js/index.js?v1.1"></script>
+	<link rel="stylesheet" type="text/css" href="css/index.css?v1.2">
+	<script src="js/index.js?v1.2"></script>
 
 	<!-- slick -->
 	<link rel="stylesheet" type="text/css" href="plugIn/slick/css/slick.css">
@@ -118,7 +118,7 @@ switch ($language){
 				<div class="title font-size-22 font-color-w text-shadow-b1">立即訂閱即可獲得57折早鳥優惠通知！</div>
 				<div>	
 					<a href="" class="btn btn-customer">獲得1+1優惠</a>
-					<div class="ahref text-center">ssjijaod</div>
+					<div class="ahref text-center">網址</div>
 				</div>
 				<div class="sale-logo">
 					<img src="img/uk.png" class="img-fluid" alt="">

@@ -108,7 +108,8 @@ $(document).ready(function(){
 				$(".sale-logo img").attr('src','img/ch.png');
 				$(".btn-customer").addClass("btn-customer-ch");
 				$(".btn-customer").attr('href','https://goo.gl/H5hcRW');
-				$(".ahref").html('https://goo.gl/H5hcRW');
+				$(".ahref").addClass('ahref-img');
+				$(".ahref").html('<img src="img/tgi_logo.png" class="img-fluid" alt="">');
 
 		        break;
 		    case "chs": //簡體中文
