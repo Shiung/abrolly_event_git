@@ -66,8 +66,8 @@ switch ($language){
 	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 	<!-- user -->
-	<link rel="stylesheet" type="text/css" href="css/index.css">
-	<script src="js/index.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/index.css?v1.1">
+	<script src="js/index.js?v1.1"></script>
 
 	<!-- slick -->
 	<link rel="stylesheet" type="text/css" href="plugIn/slick/css/slick.css">
