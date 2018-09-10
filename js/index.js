@@ -73,7 +73,8 @@ $(document).ready(function(){
 		    	videoSrc1 = '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/GneZCMZnEzk" frameborder="0" allowfullscreen></iframe>';
 		    	videoSrc2 = '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/yoWv23T0LLU" frameborder="0"  allowfullscreen></iframe>'; 		    	
 
-		        s1Title = "立即訂閱即可獲得57折早鳥優惠通知！";
+				// s1Title = "立即訂閱即可獲得57折早鳥優惠通知！";
+				s1Title = "<div class='text-center s1title-a'>A.Brolly Stonehenge巨石陣機能自動傘在嘖嘖募資平台以415%的高標完成募資計畫!<br class='d-none d-xl-block'>為了感謝大家的支持，A.Brolly在TGiLive居生活平台上，推出了慶祝募資成功的超值1+1組合<br class='d-none d-xl-block'>讓沒有搶在募資計畫的朋友以實惠的價格享受巨石陣的優異品質!</div>"
 		        s1btn = "立即訂閱";
 		        s1describe = "業界首創多項專利技術之作，邀請您以行動支持這款貫徹環保精神的革命性商品！";
 		        s2Title = "結合巨石陣堅實精神與環保理念之作";
@@ -95,12 +96,19 @@ $(document).ready(function(){
 		        s10ContentStory2 = "他們多年來一直在幫別人做傘，留意到因為價錢的因素，品質差劣的傘不斷地進入市場並且被大眾使用。也因為這些傘的品質不佳，使用不久就會損壞。";
 		        s10ContentStory3 = "這些廢棄傘為這個地球製造了大量的垃圾，也對環境造成汙染。尤其目前全世界處理廢棄傘只有掩埋與填海兩種方法，而兩者都會造成嚴重的水資源汙染，只是沒有人去真正的了解。";
 		        s10ContentStory4 = "因此，Grant Barnett在2016年推出自有品牌A.Brolly亞伯尼，由英國時尚設計師負責各系列的設計，配以獨特的材質和機能，要打造環保且兼具高規格的洋傘。";
-		        s10ContentStory5 = "A.Brolly的理念是製造出品質好的傘給大眾使用，讓大家都能擁有一支可以持續使用多年的傘，讓它不輕易變成垃圾。與此同時，我們也不斷對材質作出研究，務求要製造出減少環境汙染，但也同時兼具功能性與流行元素的產品。<br>這就是亞伯尼。";
+				s10ContentStory5 = "A.Brolly的理念是製造出品質好的傘給大眾使用，讓大家都能擁有一支可以持續使用多年的傘，讓它不輕易變成垃圾。與此同時，我們也不斷對材質作出研究，務求要製造出減少環境汙染，但也同時兼具功能性與流行元素的產品。<br>這就是亞伯尼。";
+				aConnect = "獲得1+1優惠";
 		        
 		        wechatTitle = "立即關注A.Brolly亞伯尼微信公眾號";
 		        wechatID = "ID搜尋：gh_2c76d979bffb";
 
 		        FB = "https://www.facebook.com/ABrolly.asia";
+
+				$(".sale-logo").addClass('sale-ch');	
+				$(".sale-logo img").attr('src','img/ch.png');
+				$(".btn-customer").addClass("btn-customer-ch");
+				$(".btn-customer").attr('href','https://goo.gl/H5hcRW');
+				$(".ahref").html('https://goo.gl/H5hcRW');
 
 		        break;
 		    case "chs": //簡體中文
@@ -147,7 +155,8 @@ $(document).ready(function(){
 		    	videoSrc1 = '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/AIG5E6HsvY4" frameborder="0" allowfullscreen></iframe>';
 		    	videoSrc2 = '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/j5K4SM5cfAU" frameborder="0" allowfullscreen></iframe>'; 
 
-		        s1Title = "Subscribe NOW to get a 36% off early bird discount notice!";
+				// s1Title = "Subscribe NOW to get a 36% off early bird discount notice!";
+				s1Title = "Cutting Edge Funtional ECO Umbrella<div class='titleStrong'>STONEHENGE</div>Now live on KICKSTARTER";
 		        s1btn = "Subscribe now";
 		        s1describe = "A.Brolly Stonehenge is an umbrella with multiple industry-leading patented technologies. We would hereby invite you to support this revolutionary product that thoroughly implements the spirit of environmental protection!";
 		        s2Title = "An Umbrella that Combines that solidity spirit of Stonehenge and the environmental protection concept";
@@ -170,14 +179,20 @@ $(document).ready(function(){
 		        s10ContentStory3 = "These waste umbrellas produce lots of garbage for the earth and cause pollution to the environment. At the moment, there are only two methods available to handle the waste umbrellas in the world – landfill and sea reclamation, both of which cause serious water pollution. The problem is very few people realize this fact.";
 		        s10ContentStory4 = "As a result, Grant Barnett launched its own brand, A.Brolly, in 2016. Their umbrellas, designed by British fashion designers, adopt unique materials and technologies to offer special features while being friendly to the environment.";
 		        s10ContentStory5 = "A.Brolly's philosophy is to create high-quality umbrellas that can last 10-plus years for the public, so as to help reducing the number of waste umbrella produced each year. At the same time, we also continue to research and develop new materials to help create products that are highly functional, fashionable as well as eco-friendly.<br>Grab your A.Brolly today to truly know what an excellent umbrella should be like.";
-		        
+				aConnect = "Support Us On Kickstarter";
+				
 		        wechatTitle = "Follow us on Wechat";
 		        wechatID = "ID：gh_2c76d979bffb";	
 
 		        $(".title").addClass("title-en");
 		        $(".content").addClass("content-en");	
 		        $(".btn").addClass("btn-en");
-		        $(".descibe").addClass("descibe-en");
+				$(".descibe").addClass("descibe-en");
+				$(".btn-customer").addClass("btn-customer-en");
+				$(".btn-customer").attr('href','http://kck.st/2OWp0XA');
+				$(".sale-logo").addClass('sale-en');
+				$(".sale-logo img").attr('src','img/uk.png');
+				$(".ahref").html('http://kck.st/2OWp0XA');
 
 		        FB = "https://www.facebook.com/abrollyuk";
 		        break; 
@@ -284,6 +299,8 @@ $(document).ready(function(){
 		$(".s10Box .story-3").html(s10ContentStory3);
 		$(".s10Box .story-4").html(s10ContentStory4);
 		$(".s10Box .story-5").html(s10ContentStory5);
+
+		$(".btn-customer").html(aConnect);
 
 		//input
 		$("input.name").attr("placeholder",inputName);

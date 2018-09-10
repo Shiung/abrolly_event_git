@@ -9,15 +9,15 @@ switch ($language){
 	case "ch":
 		$langPage = "繁體中文";
 	break;
-	case "chs":
-		$langPage = "简体中文";
-	break;
+	// case "chs":
+	// 	$langPage = "简体中文";
+	// break;
 	case "en":
 		$langPage = "English";
 	break;
-	case "jp":
-		$langPage = "日本語";
-	break;
+	// case "jp":
+	// 	$langPage = "日本語";
+	// break;
 	default: //如果沒有選擇語系 會以server 語系來執行
 		$langPage = "English";
 		$language = "en";
@@ -112,28 +112,17 @@ switch ($language){
 <section>
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-12 s1Box d-flex flex-column justify-content-center align-items-center">
+			<div class="col-12 s1Box d-flex flex-column justify-content-end align-items-center">
 				<div class="logo"><img src="img/logo-white.png" class="img-fluid"></div>
-				<div class="title font-size-25 font-color-w text-shadow-b1">立即訂閱即可獲得57折早鳥優惠通知！</div>
-				<div class="rwdForm d-flex justify-content-center">
-					<div class="formGroup">
-						<form class="formArea">
-						  <div class="form-group">
-						    <input type="text" class="form-control name" name="name" placeholder="姓名">
-						  </div>
-						  <div class="form-group">
-						    <input type="number" class="form-control age" name="age" placeholder="年齡" max="100" min="1">
-						  </div>
-						  <div class="form-group mb-0">
-						    <input type="text" class="form-control mail" name="mail" placeholder="Email">
-						  </div>
-						</form>
-					</div>
-					<div class="s1btn d-flex align-items-center">
-						<button type="button" class="btn sub-btn">立即訂閱</button>
-					</div>
+				<!-- 募資 -->
+				<div class="title font-size-22 font-color-w text-shadow-b1">立即訂閱即可獲得57折早鳥優惠通知！</div>
+				<div>	
+					<a href="" class="btn btn-customer">獲得1+1優惠</a>
+					<div class="ahref text-center">ssjijaod</div>
 				</div>
-				<div class="descibe font-color-w font-size-14">業界首創多項專利技術之作，邀請您以行動支持這款貫徹環保精神的革命性商品！</div>
+				<div class="sale-logo">
+					<img src="img/uk.png" class="img-fluid" alt="">
+				</div>
 				<!-- scrollDown -->
 				<div class="scroll font-color-w">Scroll Down<div class="text-center"><i class="fas fa-angle-down"></i></div></div>
 				<!-- drowpdown -->
@@ -145,9 +134,9 @@ switch ($language){
 				  </button>
 				  <div class="dropdown-menu">
 				    <a id="ch" class="dropdown-item <?php if($language == "ch"){echo "active";} ?>" href="#!">繁體中文</a>
-				    <a id="chs" class="dropdown-item <?php if($language == "chs"){echo "active";} ?>" href="#!">简体中文</a>
+				    <!-- <a id="chs" class="dropdown-item <?php //if($language == "chs"){echo "active";} ?>" href="#!">简体中文</a> -->
 				    <a id="en" class="dropdown-item <?php if($language == "en"){echo "active";} ?>" href="#!">English</a>
-				    <a id="jp" class="dropdown-item <?php if($language == "jp"){echo "active";} ?>" href="#!">日本語</a>
+				    <!-- <a id="jp" class="dropdown-item <?php //if($language == "jp"){echo "active";} ?>" href="#!">日本語</a> -->
 				  </div>
 				  <form id="langForm" action="index.php" method="GET">
 				  	 <input type="hidden" name="lang" value="ch">
@@ -423,25 +412,11 @@ switch ($language){
 <section>
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-12 s11Box d-flex flex-column justify-content-center align-items-center">
-				<div class="title font-size-25 font-color-w text-shadow-b1">立即訂閱即可獲得57折早鳥優惠通知！</div>
-				<div class="rwdForm d-flex justify-content-center">
-					<div class="formGroup">
-						<form class="formArea">
-						  <div class="form-group">
-						    <input type="text" class="form-control name" name="name" placeholder="姓名">
-						  </div>
-						  <div class="form-group">
-						    <input type="number" class="form-control age" name="age" placeholder="年齡" max="100" min="1">
-						  </div>
-						  <div class="form-group mb-0">
-						    <input type="text" class="form-control mail" name="mail" placeholder="Email">
-						  </div>
-						</form>
-					</div>
-					<div class="s1btn d-flex align-items-center">
-						<button type="button" class="btn sub-btn">立即訂閱</button>
-					</div>
+			<div class="col-12 s11Box d-flex flex-column justify-content-end align-items-center">
+				<div class="title font-size-22 font-color-w text-shadow-b1">立即訂閱即可獲得57折早鳥優惠通知！</div>
+				<div>
+					<a href="" class="btn btn-customer">獲得1+1優惠</a>
+					<div class="ahref text-center">ssjijaod</div>
 				</div>
 			</div>
 			

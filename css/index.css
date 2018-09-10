@@ -149,11 +149,44 @@ header{
 	padding-bottom : 15px ;
 }
 .s1Box{
-	background-image: url("../img/banner-1.jpg");
+	/* background-image: url("../img/banner-1.jpg"); */
+	background-image: url("../img/computer_pic-01.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
+}
+.s1title-a{
+	line-height:45px;
+}
+.titleStrong{
+	font-size: 40px;
+	letter-spacing: 0;
+	font-weight: 200;
+}
+.btn-customer{
+    padding: 15px 100px;
+	border-radius: 10px;
+	color:#fff;
+	font-size: 30px;
+	box-shadow: 5px 15px 20px rgba(0,0,0,.5);
+}
+.ahref{
+	margin-bottom:80px;
+	margin-top:5px;
+	color:rgba(255,255,255,.5);
+}
+.btn-customer-en{
+	background: linear-gradient(180deg,#009245 0% ,#39b54a 18%, #8cc63f 50%, #39b54a 82%,#009245 100%);
+}
+.btn-customer-ch{
+	background: linear-gradient(180deg,#754c24 0% ,#8c6239 18%, #a67c52 50%, #8c6239 82%,#754c24 100%);
+}
+.sale-logo{
+	position: absolute;
+	width: 200px;
+	left: 25px;
+	top: 25px;
 }
 
 
@@ -409,10 +442,13 @@ footer a{
 }
 
 /*hover*/
-.btn:hover{
+/* .btn:hover{
 	background-color: rgba(255,255,255,.8);
 	color:rgba(151,124,82,1);	
 	transition: .5s;
+} */
+.btn-customer:hover{
+	color:white;
 }
 footer a:hover{
 	color:#666;
@@ -423,7 +459,11 @@ footer a:hover{
 	 opacity: 1;
 	transition: .5s;
 }
-
+@media screen and ( max-width: 1024px ){
+	.s1Box{
+		background-position: 70% center;	
+	}
+}
 @media (min-width: 768px){
 	.md-right{
 		margin-left: 50%;
@@ -437,6 +477,10 @@ footer a:hover{
 	.descibe-en,
 	.descibe-jp{
 		width: 95%;
+	}
+	.s1Box{
+		background-image: url("../img/RWD_pic-01.jpg");
+		background-position:center;	
 	}
 	.s1Box,
 	.s10Box .img{
@@ -484,7 +528,7 @@ footer a:hover{
     	justify-content: center!important;
 	}
 	.title{
-		font-size: 18px!important;
+		font-size: 14px!important;
 	}
 	.s2Box .title,
 	.s3Box .title,
@@ -517,6 +561,34 @@ footer a:hover{
 	.s10Box .img{
 		height: auto;
 	}
+	.s1title-a{
+		line-height:30px;
+	}
+	.btn-customer{
+		font-size: 20px;
+	}
+	.btn-customer-ch{
+		padding: 5px 50px;
+	}
+	.btn-customer-en{
+		padding: 5px 20px;
+	}
+	.titleStrong{
+		font-size: 20px;
+	}
+	.sale-logo{
+		width: 80px;
+		left: 15px;
+		top: 15px;
+	}
+	/* .sale-en{
+		left: 15px;
+		top: 15px;
+	}
+	.sale-ch{
+		left: 15px;
+		bottom: 15px;
+	} */
 }
 @media screen and ( max-width: 991px ){
 	footer{
