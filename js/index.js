@@ -105,11 +105,11 @@ $(document).ready(function(){
 		        FB = "https://www.facebook.com/ABrolly.asia";
 
 				$(".sale-logo").addClass('sale-ch');	
-				$(".sale-logo img").attr('src','img/ch.png');
+				$(".sale-logo img").attr('src','../img/ch.png');
 				$(".btn-customer").addClass("btn-customer-ch");
 				$(".btn-customer").attr('href','https://goo.gl/H5hcRW');
 				$(".ahref").addClass('ahref-img');
-				$(".ahref").html('<img src="img/tgi_logo.png" class="img-fluid" alt="">');
+				$(".ahref").html('<img src="../img/tgi_logo.png" class="img-fluid" alt="">');
 
 		        break;
 		    case "chs": //簡體中文
@@ -192,7 +192,7 @@ $(document).ready(function(){
 				$(".btn-customer").addClass("btn-customer-en");
 				$(".btn-customer").attr('href','http://kck.st/2OWp0XA');
 				$(".sale-logo").addClass('sale-en');
-				$(".sale-logo img").attr('src','img/uk.png');
+				$(".sale-logo img").attr('src','../img/uk.png');
 				$(".ahref").html('http://kck.st/2OWp0XA');
 
 		        FB = "https://www.facebook.com/abrollyuk";
