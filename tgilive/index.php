@@ -122,7 +122,7 @@ switch ($language){
 					<div class="ahref text-center">網址</div>
 				</div>
 				<div class="sale-logo">
-					<img src="../img/uk.png" class="img-fluid" alt="">
+					<img src="../img/ch.png" class="img-fluid" alt="">
 				</div>
 				<!-- scrollDown -->
 				<div class="scroll font-color-w">Scroll Down<div class="text-center"><i class="fas fa-angle-down"></i></div></div>
