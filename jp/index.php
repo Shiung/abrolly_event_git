@@ -85,6 +85,14 @@ switch ($language){
 	<!-- <link rel="Shortcut Icon" type="image/x-icon" href=""> -->
 
 	<style>
+		@font-face{
+			font-family: "Hiragino Sans";
+			src: url('font/ヒラギノ角ゴシック W5.ttc');
+		} 
+		html body{
+			font-family: "Hiragino Sans";
+		}
+		
 		.sale-jp-logo{
 			position: absolute;
 			width: 150px;
